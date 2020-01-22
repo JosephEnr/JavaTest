@@ -1,3 +1,16 @@
+function myLoop1(){
+  var start = document.getElementById("start").value;
+  
+  var end = document.getElementById("end").value;
+  
+  for(var i=start; i<=end; i++){
+    document.write('<p>'+i);
+  }
+  for(var i=start; i>=end; i--){
+    document.write('<p>'+i);
+  }
+
+}
 for(var i=50;i>0;i--){
 
   document.write("For Loop #: " + i + "<br>")
