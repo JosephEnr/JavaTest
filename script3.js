@@ -13,3 +13,5 @@ function myLoop2(){
   
     for(var i=start2; i<=end2; i+=jump){
     document.write('<p>'+ i);
+    }
+}
